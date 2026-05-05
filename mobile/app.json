@@ -1,0 +1,30 @@
+{
+    "expo": {
+        "name": "Civic Voice",
+        "slug": "civic-collaboration-mobile",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "automatic",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.civicvoice.app"
+        },
+        "android": {
+            "package": "com.civicvoice.app",
+            "permissions": [
+                "ACCESS_FINE_LOCATION",
+                "ACCESS_COARSE_LOCATION",
+                "CAMERA",
+                "READ_EXTERNAL_STORAGE",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "usesCleartextTraffic": true
+        },
+        "web": {
+            "favicon": ""
+        }
+    }
+}

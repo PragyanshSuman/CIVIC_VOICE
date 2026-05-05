@@ -1,0 +1,4 @@
+(sqlalchemy.dialects.postgresql.asyncpg.Error) <class 'asyncpg.exceptions.InvalidTextRepresentationError'>: invalid input value for enum userrole: "CONTRACTOR"
+[SQL: INSERT INTO users (id, email, hashed_password, full_name, role, is_active, karma_points, level, created_at, updated_at) VALUES ($1::UUID, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::userrole, $6::BOOLEAN, $7::INTEGER, $8::INTEGER, now(), now()) RETURNING users.created_at, users.updated_at]
+[parameters: (UUID('ad0204b7-e741-4a48-9f6e-16594231fb29'), 'city.infra@contractor.com', '$2b$12$a0Mf25UzCzH8BIOBpMpST./SBXlP4uxWEg7M9rQnQbDuLB5qpSTKi', 'City Infra Solutions', 'CONTRACTOR', True, 0, 1)]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
