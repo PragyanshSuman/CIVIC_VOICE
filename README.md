@@ -193,7 +193,7 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 ## 📧 Support
 
-For issues and questions, please open a GitHub issue or contact the development team.
+For issues and questions, please open a GitHub issue or   contact the development team.
 
 ---
 
